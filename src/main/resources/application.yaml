@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: GeetaGyan
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      uri: mongodb+srv://vasu7yadav:MAYAm64iWMiJxuVK@cluster0.gno8i.mongodb.net/bhagavadgita?retryWrites=true&w=majority&appName=Cluster0
+server:
+  port: 8083
