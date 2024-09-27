@@ -23,7 +23,7 @@ import lombok.RequiredArgsConstructor;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://gitagyaan.vercel.app")
 @RequestMapping("/api/gita")
 @RequiredArgsConstructor
 public class GitaController {
